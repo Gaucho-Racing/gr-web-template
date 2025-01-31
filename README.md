@@ -4,7 +4,7 @@ This template allows you to get up and running building internal team web applic
 
 ## Getting started
 
-You should download this entire repository and copy it into your project. If you internal application features a backend (it should so you can leverage Sentinel OAuth), place everything under the `web/` directory. Else, you can just put everything in your projects root directory.
+You should download this entire repository and copy it into your project. If your internal application features a backend (it should, so you can leverage Sentinel OAuth), place everything under the `web/` directory. Else, you can just put everything in your project's root directory.
 
 Make sure you have node.js and npm installed.
 
@@ -21,6 +21,12 @@ npm run dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
+
+## Integrating Sentinel
+
+Integrating Sentinel is as simple as registering a new application, and updating the `SENTINEL_CLIENT_ID` and `BACKEND_URL` values in `src/consts/config.tsx`.
+
+Check out the Sentinel documentation [here](https://wiki.gauchoracing.com/books/sentinel) for more info.
 
 ## Linting & Formatting
 
