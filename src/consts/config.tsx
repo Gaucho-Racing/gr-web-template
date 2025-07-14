@@ -6,9 +6,9 @@ export const SENTINEL_OAUTH_BASE_URL =
 export const SENTINEL_CLIENT_ID = "grapp";
 
 export const SOCIAL_LINKS = {
-  github: "https://github.com/gaucho-racing/jiffy",
+  github: "https://github.com/gaucho-racing/grapp",
   instagram: "https://instagram.com/gauchoracingucsb",
-  twitter: "https://twitter.com/gaucho_racing",
+  twitter: "https://twitter.com/gauchoracing_",
   linkedin:
     "https://www.linkedin.com/company/gaucho-racing-at-uc-santa-barbara",
 };
